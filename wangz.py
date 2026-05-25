@@ -228,7 +228,7 @@ def load_and_parse_md(file_path):
 inject_custom_css()
 
 # 读取本地 md 题库文件
-questions = load_and_parse_md('shauti.md')
+questions = load_and_parse_md('shuati.md')
 
 if not questions:
     st.error("❌ 未能在当前文件夹找到 `shauti.md` 题库，请确保文件名与位置一致。")
